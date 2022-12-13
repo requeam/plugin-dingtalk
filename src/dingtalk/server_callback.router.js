@@ -560,5 +560,11 @@ router.get('/api/sync/dingtalkId', async function (req, res) {
     }
 
 });
+// 同步钉钉id 测试
+router.get('/api/sync/dingtalkIdv2', async function (req, res) {
 
+    res.status(200).send({ message: "v2 is ok" });
+
+
+});
 exports.default = router;
